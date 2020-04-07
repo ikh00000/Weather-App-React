@@ -1,5 +1,6 @@
 import React from 'react';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import './App.scss';
@@ -19,6 +20,8 @@ function App() {
     </Provider>
 
 =======
+=======
+>>>>>>> parent of 32bb832... redux, axios, components
 import logo from './logo.svg';
 import './App.css';
 

@@ -9,6 +9,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "react-redux": "^7.2.0",
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
@@ -17,6 +18,9 @@
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
     "sass": "^1.26.3"
+=======
+    "react-scripts": "3.4.1"
+>>>>>>> parent of 32bb832... redux, axios, components
 =======
     "react-scripts": "3.4.1"
 >>>>>>> parent of 32bb832... redux, axios, components
