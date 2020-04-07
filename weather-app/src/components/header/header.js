@@ -1,11 +1,14 @@
 import React from 'react'
+import './header.scss'
+
 
 function Header() {
   return (
-    <>
-    Header
-    </>
+    <div className="Header">
+        <h2>Weather App</h2>
+        <p>Helps you to find the weather</p>
+    </div>
   )
 }
 
-export default Header
+export default Header;

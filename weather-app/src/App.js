@@ -1,15 +1,22 @@
 import React from 'react';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import Content from './components/content/content';
+import './App.scss';
+import WeatherSearchAndShow from './components/WeatherSearchAndShow/WeatherSearchAndShow';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Content />
-      <Footer />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Header />
+        <WeatherSearchAndShow />
+        <Footer />
+      </div>
+    </Provider>
+
   );
 }
 
