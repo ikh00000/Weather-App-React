@@ -1,4 +1,5 @@
 import React from 'react';
+import './ShowWeather.scss';
 
 
 const ShowWeather = ({checkFetching, weather}) => {
@@ -15,14 +16,14 @@ const ShowWeather = ({checkFetching, weather}) => {
     <div className="ShowWeather">
        {
         checkFetching
-        ?<div>
-        {weather.city && weather.country && <p>Location: {weather.city}, {weather.country}</p>}
-        {weather.temp && <p>Temperature: {calvinToCelsium(weather.temp)}</p>}
-        {weather.humidity && <p>Humidity: {weather.humidity}</p>}
-        {weather.description && <p>Description: {weather.description}</p>}
-        {weather.error && <p>error: {weather.error}</p>}
+        ?<div className="result">
+        {weather.city && weather.country && <div><p >Location: </p><p>{weather.city}, {weather.country}</p></div>}
+        {weather.temp && <div><p >Temperature: </p><p>{calvinToCelsium(weather.temp)} °C</p></div>}
+        {weather.humidity && <div><p >Humidity: </p><p>{weather.humidity} %</p></div>}
+        {weather.description && <div><p >Description: </p><p>{weather.description}</p></div>}
+        {weather.error && <div><p >error: </p><p>{weather.error}</p></div>}
         </div>
-        :<p>Please, enter the city above</p>
+        :<p className="init-text">Please, enter the city above</p>
       } 
     </div>
   )
