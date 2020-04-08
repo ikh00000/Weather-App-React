@@ -9,6 +9,11 @@ body{
     flex-direction: column;
     text-align: center;
     border: 1px solid red;
+    border-radius: 10px;
+    background: linear-gradient(rgb(247, 117, 112), rgb(241, 182, 92));
+    width: 800px;
+    max-width: 800px;
+    min-width: 400px;
   }
 
 }

@@ -4,7 +4,9 @@ import {getWeatherSelector} from '../../selectors';
 import {connect} from 'react-redux';
 
 import ShowWeather from './ShowWeather';
-import SearchWeatherForm from './SearchWeatherForm'
+import SearchWeatherForm from './SearchWeatherForm';
+
+import './WeatherSearchAndShow.scss';
 
 const WeatherSearchAndShow = ({weatherInfo, getWeather}) => {
   const [weather, setWeather ]= useState({
@@ -30,7 +32,7 @@ const WeatherSearchAndShow = ({weatherInfo, getWeather}) => {
 }, [weatherInfo.weather])
 
   return (
-    <div>
+    <div className="WeatherSearchAndShow">
       <SearchWeatherForm getWeather={getWeather} />
       <ShowWeather checkFetching={weatherInfo.weather} weather={weather} />
     </div>

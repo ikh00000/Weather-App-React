@@ -2,7 +2,7 @@ import React from 'react';
 
 function SearchWeatherForm({getWeather}) {
   return (
-    <form onSubmit={getWeather}>
+    <form onSubmit={getWeather} className="SearchWeatherForm">
         <input
           type="text"
           name="city"
