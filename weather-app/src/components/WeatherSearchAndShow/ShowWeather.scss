@@ -1,8 +1,8 @@
-$main-red: rgb(158, 0, 0);
+$main-orange: #FC883A;
 .ShowWeather {
   width: 40%;
   p.init-text {
-    color: $main-red;
+    color: $main-orange;
   }
 
   div.result {

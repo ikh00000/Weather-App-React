@@ -1,5 +1,7 @@
 $main-red:rgb(158, 24, 0);
+$main-orange: #FC883A;
 $main-pink: #F77670;
+$main-yellow: #FFDF39;
 .footer{
   //border: 1px solid black;
   
@@ -8,11 +10,11 @@ $main-pink: #F77670;
   margin-bottom: 20px;
 
   p{
-    color: $main-pink;
+    color: $main-yellow;
     margin: 0 20px;
     a{
       text-decoration: none;
-      color: $main-red;
+      color: $main-orange;
     }
   }
 }
