@@ -2,6 +2,8 @@
  Simple weather site with React and Redux.
  
 For portfolio only.
+
+<img src="weather-app/src/images/Screenshot.png">
  
  ![GitHub Screenshot](src/images/Screenshot.png)
  
