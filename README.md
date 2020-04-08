@@ -2,9 +2,9 @@
  Simple weather site with React and Redux.
  
 For portfolio only.
+
+<img src="weather-app/src/images/Screenshot.png" width="500px">
  
- ![GitHub Screenshot](/images/Screenshot.png)
-Format: ![Alt Text](url)
  
 API from: https://openweathermap.org/api
 
