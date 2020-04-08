@@ -5,6 +5,6 @@ For portfolio only.
  
 API from: https://openweathermap.org/api
 
-Used packages and command for quick start:
+Used packages and command for a quick start:
 
 yarn create react-app --template axios reselect redux react-redux sass redux-devtools-extension redux-logger redux-thunk
