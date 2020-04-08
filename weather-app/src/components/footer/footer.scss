@@ -2,11 +2,13 @@ $main-red:rgb(158, 24, 0);
 $main-pink: #F77670;
 .footer{
   //border: 1px solid black;
+  
   display: flex;
   justify-content: space-evenly;
 
   p{
     color: $main-pink;
+    margin: 0 20px;
     a{
       text-decoration: none;
       color: $main-red;
