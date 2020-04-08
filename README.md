@@ -3,7 +3,7 @@
  
 For portfolio only.
  
- ![GitHub Screenshot](/images/Screenshot.png)
+ ![GitHub Screenshot](src/images/Screenshot.png)
  
 API from: https://openweathermap.org/api
 
