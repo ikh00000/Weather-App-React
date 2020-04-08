@@ -3,6 +3,9 @@
  
 For portfolio only.
  
+ ![GitHub Screenshot](/images/Screenshot.png)
+Format: ![Alt Text](url)
+ 
 API from: https://openweathermap.org/api
 
 Used packages and command for a quick start:
