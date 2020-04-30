@@ -3,7 +3,7 @@
  
 For portfolio only.
 
-<img src="weather-app/src/images/Screenshot.png" width="500px">
+<img src="src/images/Screenshot.png" width="500px">
  
  
 API from: https://openweathermap.org/api
