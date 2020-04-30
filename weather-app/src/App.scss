@@ -2,8 +2,12 @@
 body{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-
+  height: 100vh;
+  background: url('./images/background-blur.jpg') no-repeat ;
+  background-size: cover;
+  background-position: 0 40%;
   .App{
 
     display: flex;
