@@ -1,0 +1,40 @@
+$main-red:rgb(158, 0, 0);
+
+.SearchWeatherForm{
+  //border: 1px solid red;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  input{
+    padding: 5px;
+    height: 25px;
+    width: 65%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0px;
+    outline:none;
+
+  }
+
+  button{
+    box-shadow: 1px 1px 2px black;
+    height: 35px;
+    width: 25%;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    background: linear-gradient( rgb(255, 242, 56), rgb(252, 120, 59),);
+    color: $main-red;
+    outline:none;
+    transition: 0.2s;
+
+  }
+  button:active{
+    //background: linear-gradient( rgb(252, 120, 59),rgb(255, 242, 56));
+    background: rgb(252, 120, 59);
+    transition: 0.2s;
+    box-shadow: 0px 0px 0px black;
+
+  }
+}
