@@ -11,7 +11,7 @@
 #keys
 src/components/WeatherSearchAndShow/keys.js
 # production
-# /build
+/build
 
 # misc
 .DS_Store
