@@ -1,6 +1,6 @@
 {
   "name": "Weather-App-React",
-  "homepage": "http://ivanjulian.github.io/Weather-App-React/build",
+  "homepage": "http://ivanjulian.github.io/Weather-App-React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
