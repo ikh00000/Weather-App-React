@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+#keys
+src/components/WeatherSearchAndShow/keys.js
 # production
 # /build
 
