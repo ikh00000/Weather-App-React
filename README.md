@@ -2,7 +2,7 @@
  Simple weather site with React and Redux.
  
  For portfolio only.
-
+ Site: https://ivanjulian.github.io/Weather-App-React/
  API from: https://openweathermap.org/api
  
  <img src="src/images/Screenshot.png" width="500px">
